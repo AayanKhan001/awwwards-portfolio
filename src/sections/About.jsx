@@ -9,11 +9,11 @@ const About = () => {
     I build scalable, high-performance solutions
     from prototype to production`;
   const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  
+⚡️ Contributing to dev communities-because sharing knowledge accelerates growth.
+🎥 Leveling up my skills-always exploring the next big thing in tech
+🧗 Building side projects-because curiosity never sleeps
+🎸 Gaming marathon-because debugging and boss fights feel oddly similar;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -50,7 +50,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
         <img
           ref={imgRef}
-          src="images/man.jpg"
+          src="images/me.jpg"
           alt="man"
           className="w-md rounded-3xl"
         />
